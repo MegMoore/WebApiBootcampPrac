@@ -18,6 +18,6 @@ namespace WebApiBootcampPrac.Data
 
         public DbSet<Student> Student { get; set; } = default!;
 
-        public DbSet<WebApiBootcampPrac.Models.Score> Score { get; set; } = default!;
+        public DbSet<Score> Score { get; set; } = default!;
     }
 }
